@@ -7,7 +7,7 @@ var path = require("path");
 // =============================================================
 var app = express();
 var PORT = process.env.PORT || 3000;
-// did this work?
+// did this work? does it work now?
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
